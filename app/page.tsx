@@ -16,6 +16,10 @@ import ClientReviews from '@/components/ClientReviews';
 import SafetyGuidesSection from '@/components/SafetyGuideSection';
 import IndustriesServed from '@/components/IndustriesServed';
 import CertificationsSection from '@/components/CertificationsSection';
+import Perspectives from '@/components/Perspectives';
+import About from '@/components/About';
+import Ministries from '@/components/Ministries';
+import Events from '@/components/Events';
 
 export default function Home() {
   return (
@@ -42,8 +46,13 @@ export default function Home() {
 
         <Navbar />
         <Hero />
+        <About />
+        <Perspectives />
+        <Ministries />
+        <Events />
         <FeaturedCollections />
         <SpecialOffers />
+        
         {/*<DesignerShowcase />
         <Testimonials />
         <CelebritySpotlight />
